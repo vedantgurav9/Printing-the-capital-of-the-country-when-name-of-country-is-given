@@ -1,0 +1,11 @@
+k=input("keys: ")
+v=input("values: ")
+l1=k.split(",")
+l2=v.split(",")
+d=dict(zip(l1,l2))
+print(d)
+k1=input()
+if k1 in d:
+    print(d[k1])
+else:
+    print("Not Found")
